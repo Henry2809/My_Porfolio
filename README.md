@@ -12,32 +12,34 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
 
 # Getting Started Locally
 
-1. Clone this repository to your local machine:
+1. This porfolio was fork from
+   ```bash
+   https://github.com/dillionverma/portfolio
+   ```
+Look at the author's page for more details. All credits goes to Dillion
+
+2. To use. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/dillionverma/portfolio
+   git clone https://github.com/Henry2809/My_Porfolio
    ```
 
-2. Move to the cloned directory
+3. Move to the cloned directory
 
    ```bash
-   cd portfolio
+   cd My_Porfolio
    ```
 
-3. Install dependencies:
+4. Install dependencies:
 
    ```bash
-   pnpm install
+   npm install 
    ```
 
-4. Start the local Server:
+5. Start the local Server:
 
    ```bash
-   pnpm dev
+   npm run dev
    ```
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
-
-# License
-
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+6. Open the [Config file](./src/data/resume.tsx) and make changes

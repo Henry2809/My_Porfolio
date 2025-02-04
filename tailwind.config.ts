@@ -23,6 +23,16 @@ const config = {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
       colors: {
+
+        beige: {
+          DEFAULT: "#f5f5dc", // Light beige
+          foreground: "#333333", // Dark text
+        },
+        darkGreen: {
+          DEFAULT: "#064e3b", // Dark green
+          foreground: "#ffffff", // White text
+        },
+
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

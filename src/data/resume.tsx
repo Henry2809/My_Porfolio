@@ -11,10 +11,10 @@ export const DATA = {
   description:
     "Aspiring Software Developer. Love designing and make an impact. Very active on LinkedIn.",
   summary:
-    // "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-    "Currenly, I am a senior at Temple University, and I am set to graduate May 2025 with a major in CS. When I'm not studying, you can find me indulging in one of my many interests. I play the piano 🎹 and enjoy exploring music across genres. I speak three languages: English 🇺🇸, Vietnamese 🇻🇳, and French 🇫🇷, which has helped me connect with people from diverse backgrounds. I also work as a part-time chef at a local restaurant in Philly. Additionally, I am a motorcycle racer 🏍️, and on sunny days, you will most likely find me at the track practicing or competing.",
-
-  avatarUrl: "/me.png",
+    "I am currently a senior at Temple University, graduating in May 2025 with a major in Computer Science. My long-term career goal is to merge my technical expertise with creativity, focusing on innovative AI applications that create meaningful societal impact. I am particularly passionate about the intersection of AI and UX design, as I believe understanding user needs and crafting intuitive, user-friendly experiences are essential for making technology accessible and impactful.",
+  summary2:
+    "When I am not debugging code, you can find me playing piano 🎹, exploring music, or chatting in Vietnamese 🇻🇳 and French 🇫🇷, which has helped me connect with people from diverse backgrounds. I also juggle life as a part-time chef 🍽️ in Philly and a motorcycle racer 🏍️ — sunny days mean I am either chasing speed or perfecting recipes. Life is all about balance and a little adrenaline!",
+  avatarUrl: "/me.jpeg",
   skills: [
     "C", "Java", "Python", "Git", "Figma", "Canva", "HTML", "TypeScript", "JavaScript", "React", "CSS", "Bootstrap",
     "Tailwind", "Next", "Express", "Node", "Linux", "SQL", "MongoDB", "Firebase", "Azure", "Vercel", "Netlify", 
@@ -64,7 +64,7 @@ export const DATA = {
       // href: "https://atomic.finance",
       badges: [],
       location: "Onsite",
-      title: "Chef",
+      title: "Part-time Chef",
       logoUrl: "/1.Hibachi-Teppanyaki.png",
       start: "May 2023",
       end: "Present",
@@ -96,129 +96,123 @@ export const DATA = {
   ],
   
   projects: [
+    // {
+    //   title: "Magic UI",
+    //   href: "https://magicui.design",
+    //   dates: "June 2023 - Present",
+    //   active: true,
+    //   description:
+    //     "Designed, developed and sold animated UI components for developers.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "PostgreSQL",
+    //     "Prisma",
+    //     "TailwindCSS",
+    //     "Stripe",
+    //     "Shadcn UI",
+    //     "Magic UI",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://magicui.design",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/magicuidesign/magicui",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "https://cdn.magicui.design/bento-grid.mp4",
+    // },
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "HotSpot",
+      // href: "https://llm.report",
+      dates: "October 2024 - Dec 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Built by a team of 6. An event-matching application that connects attendees to popular event spots in the area allows users to save favorite locations and be notified when events that fit their interest are posted.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "JavaScript",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Firebase", "React",
       ],
       links: [
+        // {
+        //   type: "Website",
+        //   href: "https://llm.report",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
         {
-          type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
+          type: "Github",
+          href: "https://github.com/cis3296f24/01-HotSpot",
+          icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      image: "/hotSpot.png",
+      // video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "https://obqftms0sjmajeqt.public.blob.vercel-storage.com/HotSpotWebApp-0ECD45O767Xec0KHudSrKuYcOaRhrg.mp4", 
     },
 
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "ZARA - A UI/UX Case Study",
+      // href: "https://automatic.chat",
+      dates: "Sep 2023 - Dec 2023",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+      "Research and redesign ZARA's website for improved responsiveness and usability by applying Nielsen's Usability Heuristics. Enhance user experience, accessibility, and visual appeal while maintaining brand identity and functionality.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Figma", "Jira", "Google Slides",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://magicui.design",
+          type: "Prototype",
+          href: "https://www.figma.com/proto/cwbzWASypEbblXbI39Q7mY/Wireframes?node-id=220-1579&starting-point-node-id=220%3A1579",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
+          type: "Research",
+          href: "https://www.figma.com/files/team/1278101187311995637/project/107041942?fuid=1278119116220016642",
+          icon: <Icons.researchIcon className="size-3" />,
+        },
+        {
+          type: "Slides Solution",
+          href: "https://drive.google.com/drive/folders/1tlzHBLNlwBINB31pjsRXanKckNQrajCI",
+          icon: <Icons.GSlides className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video:"https://obqftms0sjmajeqt.public.blob.vercel-storage.com/ZaraProtoype-quBwHY30QjFzMoNX4YaxjhXWF5fhBO.mp4",
     },
+
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "Text Editor",
+      // href: "https://chatcollect.com",
+      dates: "June 2023 - July 2023",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+      "Developed a feature-rich text editor from scratch without dependencies, including syntax highlighting and search functionality.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "C"
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/Henry2809/Text-Editor",
           icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
       video:
-        "/TrackProject.mp4",
+        "https://obqftms0sjmajeqt.public.blob.vercel-storage.com/text_editor-hr6gCm8liyi2pdW0SgfKECQRtkUOh2.mp4",
     },
+
+    
   ],
 
 
@@ -226,7 +220,7 @@ export const DATA = {
     {
       title: "Track Finder",
       // href: "https://automatic.chat",
-      dates: "December 2024 - ...",
+      dates: "Dec 2024 - ...",
       active: true,
       description:
         "An interactive web page for motorcycle enthusiasts, specifically for sport bikes. Allow users to find racetracks near their current location.",
@@ -253,8 +247,40 @@ export const DATA = {
       ],
       image: "",
       video:
-        "/TrackProject.mp4",
+        "https://obqftms0sjmajeqt.public.blob.vercel-storage.com/TrackFinder.mp4",
     },
+
+    {
+      title: "Piglet Prep",
+      // href: "https://automatic.chat",
+      dates: "Jan 2025 - ...",
+      active: true,
+      description:
+        "A platform that transforms YouTube videos into interactive quizzes for kids. Using the Piggyback Learning system, these quizzes make learning engaging and effective, fostering critical thinking and knowledge retention. Above is a low-fidelity prototype.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "JS",
+        "TailwindCSS",
+        "React", "S3", "DynamoDB", "OpenAI", "AWS", "Figma",
+      ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "https://automatic.chat",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        // {
+        //     type: "Github",
+        //     href: "https://github.com/Henry2809/MotorcycleTrackFinder",
+        //     icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "",
+      video:
+        "https://obqftms0sjmajeqt.public.blob.vercel-storage.com/PigletPrep-YkeNe06MVGdmV0XuHzzLQx0rkzE7am.mp4",
+    },
+
 
   ],
 

@@ -122,6 +122,29 @@ export const Icons = {
       ></path>
     </svg>
   ),
+
+  researchIcon: (props: IconProps) => (
+    <svg
+      viewBox="0 0 32 32"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      // className="size-3"
+      width="15" height="15"
+    >
+      <path d="M20.5 19h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 0 0-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 0 0 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L20.5 19zm-6 0c-2.49 0-4.5-2.01-4.5-4.5S12.01 10 14.5 10s4.5 2.01 4.5 4.5-2.01 4.5-4.5 4.5z" />
+    </svg>
+  ),
+
+  GSlides: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" {...props}>
+      <path
+        fill="currentColor"
+        d="M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 6V4H6v16h12V10h-4a2 2 0 0 1-2-2zm-1.5 3a1.5 1.5 0 0 0-1.5 1.5v5a1.5 1.5 0 0 0 1.5 1.5h5a1.5 1.5 0 0 0 1.5-1.5v-5A1.5 1.5 0 0 0 17.5 11h-5zm0 1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5a.5.5 0 0 1 .5-.5z"
+      />
+    </svg>
+  ),
+  
+
   notion: (props: IconProps) => (
     <svg
       width="100"

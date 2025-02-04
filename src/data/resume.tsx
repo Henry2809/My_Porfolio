@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, Italic, NotebookIcon } from "lucide-react";
+import { HomeIcon, Italic, NotebookIcon, User } from "lucide-react";
 
 export const DATA = {
   name: "Henry Nguyen",
@@ -22,6 +22,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    // { href: "/personal", icon: User, label: "personal" },
   ],
   contact: {
     email: "hautrng003@gmail.com",
@@ -301,11 +302,11 @@ export const DATA = {
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/YasseenR/HackathonFall2024",
           },
-          {
-            title: "Devpost",
-            icon: <Icons.globe className="h-4 w-4" />,
-            href: "https://devpost.com/software/roomiez-8etyg2",
-          },
+          // {
+          //   title: "Devpost",
+          //   icon: <Icons.globe className="h-4 w-4" />,
+          //   href: "https://devpost.com/software/roomiez-8etyg2",
+          // },
       ],
     },
 

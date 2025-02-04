@@ -156,7 +156,7 @@ export const DATA = {
       ],
       image: "/hotSpot.png",
       // video: "https://cdn.llm.report/openai-demo.mp4",
-      video: "https://vimeo.com/1053439347?share=copy", 
+      video: "/HotSpotCompress.mp4", 
     },
 
     {
@@ -209,7 +209,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://obqftms0sjmajeqt.public.blob.vercel-storage.com/text_editor-hr6gCm8liyi2pdW0SgfKECQRtkUOh2.mp4",
+        "/textEditorCompressed.mp4",
     },
 
     
@@ -278,7 +278,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://obqftms0sjmajeqt.public.blob.vercel-storage.com/PigletPrep-YkeNe06MVGdmV0XuHzzLQx0rkzE7am.mp4",
+        "/PigletPrepCompressed.mp4",
     },
 
 

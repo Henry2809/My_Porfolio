@@ -247,7 +247,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://obqftms0sjmajeqt.public.blob.vercel-storage.com/TrackFinder.mp4",
+        "/TrackFinder.mp4",
     },
 
     {

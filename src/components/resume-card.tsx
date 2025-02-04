@@ -86,11 +86,12 @@ export const ResumeCard = ({
             </div>
             {subtitle && <div className="font-sans text-sm">{subtitle}</div>}
           </CardHeader>
+
           {description && ( // postition description
             <motion.div
-              initial={{ opacity: 0, height: 0 }}
+              initial={{ opacity: 10, height: 0}}
               animate={{
-                opacity: isExpanded ? 1 : 0,
+                opacity: isExpanded ? 10 : 0,
 
                 height: isExpanded ? "auto" : 0,
               }}

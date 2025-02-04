@@ -156,7 +156,7 @@ export const DATA = {
       ],
       image: "/hotSpot.png",
       // video: "https://cdn.llm.report/openai-demo.mp4",
-      video: "https://obqftms0sjmajeqt.public.blob.vercel-storage.com/HotSpotWebApp-0ECD45O767Xec0KHudSrKuYcOaRhrg.mp4", 
+      video: "https://vimeo.com/1053439347?share=copy", 
     },
 
     {
@@ -247,7 +247,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "/TrackFinder.mp4",
+        "/TrackFinderCompressed.mp4",
     },
 
     {

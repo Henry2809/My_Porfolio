@@ -187,7 +187,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video:"https://obqftms0sjmajeqt.public.blob.vercel-storage.com/ZaraProtoype-quBwHY30QjFzMoNX4YaxjhXWF5fhBO.mp4",
+      video:"/ZaraProtoypeCompressed.mp4",
     },
 
     {

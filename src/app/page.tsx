@@ -138,7 +138,7 @@ export default function Page() {
                   Check out my work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on diverse projects, from sleek designs to complex web applications. 
+                  I&apos;ve worked on diverse projects, from sleek designs and in-depth research studies to complex web applications.
                   Here are a few highlights of my work, showcasing my versatility and creativity.
                 </p>
               </div>

@@ -150,7 +150,7 @@ export const DATA = {
         //   icon: <Icons.globe className="size-3" />,
         // },
         {
-          type: "Github",
+          type: "GitHub",
           href: "https://github.com/cis3296f24/01-HotSpot",
           icon: <Icons.github className="size-3" />,
         },
@@ -199,11 +199,11 @@ export const DATA = {
       description:
       "Developed a feature-rich text editor from scratch without dependencies, including syntax highlighting and search functionality.",
       technologies: [
-        "C"
+        "C", "Jira",
       ],
       links: [
         {
-          type: "Source",
+          type: "GitHub",
           href: "https://github.com/Henry2809/Text-Editor",
           icon: <Icons.github className="size-3" />,
         },
@@ -211,6 +211,28 @@ export const DATA = {
       image: "",
       video:
         "/textEditorCompressed.mp4",
+    },
+    
+    {
+      title: "Fraud Detection",
+      // href: "https://chatcollect.com",
+      dates: "April 2023 - May 2023",
+      active: true,
+      description:
+      "A study aimed at addressing the challenges in detecting fraud in consumer transactions and analyzing more effective strategies for successful fraud prevention.",
+      technologies: [
+        "Python", "PowerPoint",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/Henry2809/Fraud_Dectection",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "/FraudDetection.mp4",
     },
 
     
@@ -241,7 +263,7 @@ export const DATA = {
         //   icon: <Icons.globe className="size-3" />,
         // },
         {
-            type: "Github",
+            type: "GitHub",
             href: "https://github.com/Henry2809/MotorcycleTrackFinder",
             icon: <Icons.github className="size-3" />,
         },
@@ -298,7 +320,7 @@ export const DATA = {
         "/owl.png",
       links: [
         {
-          title: "Github",
+          title: "GitHub",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/YasseenR/HackathonFall2024",
           },
@@ -327,7 +349,7 @@ export const DATA = {
       // mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [
         {
-        title: "Github",
+        title: "GitHub",
         icon: <Icons.github className="h-4 w-4" />,
         href: "https://github.com/Henry2809/PhillyNow-Hackathon-Owlhacks-Spring2023-",
         },
@@ -349,7 +371,7 @@ export const DATA = {
         "/owlhacks-logo.png",
       links: [
         {
-          title: "Github",
+          title: "GitHub",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/Henry2809/FitnessHouse",
           },

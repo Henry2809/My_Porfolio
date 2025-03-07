@@ -5,7 +5,7 @@ const slugs = [
         "mysql/4479a1", // SQL - Blue (changed from "sql" to "mysql" as a common SQL representation)
         "openjdk/ea2d2e", // Java - Red
         "amazonwebservices/ff9900", // AWS - Orange
-        "miro/050038", //  dark purple
+        "miro/dec81f", //  yellow
         "amazondynamodb/4053D6", // light purple
 
         "c/03599c", // C - Blue

@@ -52,8 +52,8 @@ export function IconCloud({ icons, images }: IconCloudProps) {
 
     const newIconCanvases = items.map((item, index) => {
       const offscreen = document.createElement("canvas");
-      offscreen.width = 40;
-      offscreen.height = 40;
+      offscreen.width = 50;
+      offscreen.height = 48;
       const offCtx = offscreen.getContext("2d");
 
       if (offCtx) {
@@ -78,7 +78,7 @@ export function IconCloud({ icons, images }: IconCloudProps) {
           };
         } else {
           // Handle SVG icons
-          offCtx.scale(0.5, 0.5);
+          offCtx.scale(0.4, 0.4);
           const svgString = renderToString(item as React.ReactElement);
           const img = new Image();
           img.src = "data:image/svg+xml;base64," + btoa(svgString);
@@ -167,7 +167,7 @@ export function IconCloud({ icons, images }: IconCloudProps) {
           Math.pow(targetX - currentX, 2) + Math.pow(targetY - currentY, 2),
         );
 
-        const duration = Math.min(2000, Math.max(800, distance * 1000));
+        const duration = Math.min(3000, Math.max(1000, distance * 1500));
 
         setTargetRotation({
           x: targetX,
@@ -199,8 +199,8 @@ export function IconCloud({ icons, images }: IconCloudProps) {
       const deltaY = e.clientY - lastMousePos.y;
 
       rotationRef.current = {
-        x: rotationRef.current.x + deltaY * 0.002,
-        y: rotationRef.current.y + deltaX * 0.002,
+        x: rotationRef.current.x + deltaY * 0.001,
+        y: rotationRef.current.y + deltaX * 0.001,
       };
 
       setLastMousePos({ x: e.clientX, y: e.clientY });
@@ -226,7 +226,7 @@ export function IconCloud({ icons, images }: IconCloudProps) {
       const dx = mousePos.x - centerX;
       const dy = mousePos.y - centerY;
       const distance = Math.sqrt(dx * dx + dy * dy);
-      const speed = 0.003 + (distance / maxDistance) * 0.01;
+      const speed = 0.001 + (distance / maxDistance) * 0.01;
 
       if (targetRotation) {
         const elapsed = performance.now() - targetRotation.startTime;
@@ -317,7 +317,7 @@ export function IconCloud({ icons, images }: IconCloudProps) {
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}
       onMouseLeave={handleMouseUp}
-      className="w-full h-auto max-w-[300px] md:max-w-[500px] lg:max-w-[600px] rounded-lg"
+      className="w-full h-auto max-w-[300px] md:max-w-[500px] lg:w-[380px] rounded-lg"
       aria-label="Interactive 3D Icon Cloud"
       role="img"
     />

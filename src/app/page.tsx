@@ -5,6 +5,7 @@ import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { IconCloudDemo } from "@/components/ui/IconCloudDemo";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
@@ -110,7 +111,7 @@ export default function Page() {
       </section>
 
       {/* Skills Section */}
-      <section id="skills">
+      {/* <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
@@ -123,11 +124,24 @@ export default function Page() {
             ))}
           </div>
         </div>
+      </section> */}
+
+      <section id="skills">
+        <div className="flex min-h-0 flex-col gap-y-3">
+            <BlurFade delay={BLUR_FADE_DELAY * 10}>
+              <h2 className="text-xl font-bold">Skills</h2>
+            </BlurFade>
+          <div className="flex flex-wrap items-center justify-center">
+            <BlurFade delay={BLUR_FADE_DELAY * 10}>
+              <IconCloudDemo />
+            </BlurFade>
+          </div>
+        </div>
       </section>
       
       {/* Projects Sections */}
       <section id="projects">
-        <div className="space-y-12 w-full py-16">
+        <div className="space-y-12 w-full py-14">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">

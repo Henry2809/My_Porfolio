@@ -4,7 +4,7 @@ import { HomeIcon, Italic, NotebookIcon, User } from "lucide-react";
 export const DATA = {
   name: "Henry Nguyen",
   initials: "HN",
-  url: "https://dillion.io",
+  // url: "https://dillion.io",
   // url:"",
   location: "Philadelphia, PA",
   locationLink: "https://www.google.com/maps/place/philadelphia",
@@ -91,7 +91,7 @@ export const DATA = {
       href: "https://www.temple.edu",
       degree: " Bachelor of Science in Computer Science (BS)",
       logoUrl: "/temple.png",
-      start: "2021",
+      start: "Aug 2021",
       end: "May 2025",
     },
   ],

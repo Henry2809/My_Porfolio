@@ -9,7 +9,7 @@ export const DATA = {
   location: "Philadelphia, PA",
   locationLink: "https://www.google.com/maps/place/philadelphia",
   description:
-    "Aspiring Software Developer. Love designing and make an impact. Very active on LinkedIn.",
+    "Aspiring Software Developer who loves designing and calls LinkedIn home.",
   summary:
     "I am currently a senior at Temple University, graduating in May 2025 with a major in Computer Science. My long-term career goal is to merge my technical expertise with creativity, focusing on innovative AI applications that create meaningful societal impact. I am particularly passionate about the intersection of AI and UX design, as I believe understanding user needs and crafting intuitive, user-friendly experiences are essential for making technology accessible and impactful.",
   summary2:
@@ -274,7 +274,7 @@ export const DATA = {
     },
 
     {
-      title: "Piglet Prep",
+      title: "Piglet Prep (Capstone Project)",
       // href: "https://automatic.chat",
       dates: "Jan 2025 - ...",
       active: true,
@@ -285,7 +285,7 @@ export const DATA = {
         "Typescript",
         "JS",
         "TailwindCSS",
-        "React", "S3", "DynamoDB", "OpenAI", "AWS", "Figma",
+        "React", "S3", "DynamoDB", "OpenAI", "AWS", "Figma", "Jira", "Framer Motion",
       ],
       links: [
         // {
@@ -315,7 +315,7 @@ export const DATA = {
       dates: "Fall 2024",
       location: "Philadelphia, PA",
       description:
-        "Developed Rommiez, a GPT-3.5 powered roommate matching app for student.",
+       "Developed Rommiez, a Tinder-inspired, GPT-3.5 powered roommate matching app for students.",
       image:
         "/owl.png",
       links: [

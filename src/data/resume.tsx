@@ -11,9 +11,9 @@ export const DATA = {
   description:
     "Aspiring Software Developer who loves designing and calls LinkedIn home.",
   summary:
-    "I am currently a senior at Temple University, graduating in May 2025 with a major in Computer Science. My long-term career goal is to merge my technical expertise with creativity, focusing on innovative AI applications that create meaningful societal impact. I am particularly passionate about the intersection of AI and UX design, as I believe understanding user needs and crafting intuitive, user-friendly experiences are essential for making technology accessible and impactful.",
+    "I am currently a senior at Temple University, graduating in May 2025 with a major in Computer Science. My long-term career goal is to combine my technical background with a passion for human-centered design, specializing in UX design to create intuitive and impactful digital experiences. My foundation in Computer Science gives me a unique perspective on how systems function, allowing me to bridge the gap between technical feasibility and user needs.",
   summary2:
-    "When I am not debugging code, you can find me playing piano 🎹, exploring music, or chatting in Vietnamese 🇻🇳 and French 🇫🇷, which has helped me connect with people from diverse backgrounds. I also juggle life as a part-time chef 🍽️ in Philly and a motorcycle racer 🏍️ — sunny days mean I am either chasing speed or perfecting recipes. Life is all about balance and a little adrenaline!",
+    "My focus is on designing technology that meets real needs, not just showcasing technical capabilities. Great UX happens when solutions blend naturally into daily life, making technology feel like an invisible helper rather than a barrier.",
   avatarUrl: "/me.jpeg",
   skills: [
     "C", "Java", "Python", "Git", "Figma", "Canva", "HTML", "TypeScript", "JavaScript", "React", "CSS", "Bootstrap",

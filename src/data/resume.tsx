@@ -130,6 +130,53 @@ export const DATA = {
     //   video: "https://cdn.magicui.design/bento-grid.mp4",
     // },
     {
+      title: "Piglet Prep (Capstone Project)",
+      // href: "https://automatic.chat",
+      dates: "Jan 2025 - April 28, 2025",
+      active: true,
+      description:
+        "A platform that transforms YouTube videos into interactive quizzes for kids. Using the Piggyback Learning system, these quizzes make learning engaging and effective, fostering critical thinking and knowledge retention. Above is a low-fidelity prototype.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "JS", "TailwindCSS", "React", "S3", "MongoDB", "OpenAI", 
+        "Amazon Rekognition", "Figma", "Jira", "Framer Motion", "MagicUI", "Chart.js", "Mermaid",
+      ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "https://automatic.chat",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+            type: "Github",
+            href: "https://github.com/Capstone-Projects-2025-Spring/project-piggyback-learning-team-1?tab=readme-ov-file",
+            icon: <Icons.github className="size-3" />,
+        },
+        {
+            type: "Docusaurus",
+            href: "https://capstone-projects-2025-spring.github.io/project-piggyback-learning-team-1/",
+            icon: <Icons.docusaurus className="size-3" />,
+        },
+        {
+          type: "Jira",
+          href: "https://temple-cis-projects-in-cs.atlassian.net/jira/software/c/projects/PLTA/boards/420/backlog",
+          icon: <Icons.jira className="size-3" />,
+        },
+
+        {
+          type: "Prototype",
+          href: "https://www.figma.com/proto/5YDqFAwQzMAP73WXsOE9lZ/Piggyback-Prototyping?node-id=102-65&t=VG3L1hNUepQ6IE8J-0&scaling=contain&content-scaling=fixed&page-id=93%3A337&starting-point-node-id=102%3A65",
+            icon: <Icons.figma className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        // "/PigletPrepCompressed.mp4",
+        "NewestPigletPrep.mp4",
+    },
+
+    {
       title: "HotSpot",
       // href: "https://llm.report",
       dates: "October 2024 - Dec 2024",
@@ -174,7 +221,7 @@ export const DATA = {
         {
           type: "Prototype",
           href: "https://www.figma.com/proto/cwbzWASypEbblXbI39Q7mY/Wireframes?node-id=220-1579&starting-point-node-id=220%3A1579",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.figma className="size-3" />,
         },
         {
           type: "Research",
@@ -243,10 +290,12 @@ export const DATA = {
     {
       title: "Track Finder",
       // href: "https://automatic.chat",
-      dates: "Dec 2024 - ...",
+      // dates: "Dec 2024 - ...",
+      dates:"",
       active: true,
       description:
-        "An interactive web page for motorcycle enthusiasts, specifically for sport bikes. Allow users to find racetracks near their current location.",
+        // "An interactive web page for motorcycle enthusiasts, specifically for sport bikes. Allow users to find racetracks near their current location.",
+        "Discover nearby racetracks in seconds with an interactive web app for sport-bike enthusiasts. Log your bike’s maintenance history and share honest track reviews. Connect with fellow riders, rate circuits, and plan your next high-speed adventure.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -273,36 +322,36 @@ export const DATA = {
         "/TrackFinderCompressed.mp4",
     },
 
-    {
-      title: "Piglet Prep (Capstone Project)",
-      // href: "https://automatic.chat",
-      dates: "Jan 2025 - ...",
-      active: true,
-      description:
-        "A platform that transforms YouTube videos into interactive quizzes for kids. Using the Piggyback Learning system, these quizzes make learning engaging and effective, fostering critical thinking and knowledge retention. Above is a low-fidelity prototype.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "JS",
-        "TailwindCSS",
-        "React", "S3", "DynamoDB", "OpenAI", "AWS", "Figma", "Jira", "Framer Motion",
-      ],
-      links: [
-        // {
-        //   type: "Website",
-        //   href: "https://automatic.chat",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
-        // {
-        //     type: "Github",
-        //     href: "https://github.com/Henry2809/MotorcycleTrackFinder",
-        //     icon: <Icons.github className="size-3" />,
-        // },
-      ],
-      image: "",
-      video:
-        "/PigletPrepCompressed.mp4",
-    },
+    // {
+    //   title: "Piglet Prep (Capstone Project)",
+    //   // href: "https://automatic.chat",
+    //   dates: "Jan 2025 - ...",
+    //   active: true,
+    //   description:
+    //     "A platform that transforms YouTube videos into interactive quizzes for kids. Using the Piggyback Learning system, these quizzes make learning engaging and effective, fostering critical thinking and knowledge retention. Above is a low-fidelity prototype.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "JS",
+    //     "TailwindCSS",
+    //     "React", "S3", "DynamoDB", "OpenAI", "AWS", "Figma", "Jira", "Framer Motion",
+    //   ],
+    //   links: [
+    //     // {
+    //     //   type: "Website",
+    //     //   href: "https://automatic.chat",
+    //     //   icon: <Icons.globe className="size-3" />,
+    //     // },
+    //     // {
+    //     //     type: "Github",
+    //     //     href: "https://github.com/Henry2809/MotorcycleTrackFinder",
+    //     //     icon: <Icons.github className="size-3" />,
+    //     // },
+    //   ],
+    //   image: "",
+    //   video:
+    //     "/PigletPrepCompressed.mp4",
+    // },
 
 
   ],

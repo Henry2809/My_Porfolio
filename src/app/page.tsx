@@ -187,7 +187,7 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Currently working on...
+                  Currently working on ...
                 </h2>
                 {/* <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;ve worked on diverse projects, from sleek websites to complex web applications. 
@@ -232,8 +232,12 @@ export default function Page() {
                   I enjoy turning ideas into reality
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time at the university, I attended{" "}
+                  {/* During my time at the university, I attended{" "}
                   {DATA.hackathons.length} hackathons hosted by Temple. People from around Philly would come together and build incredible things in 12 
+                  hours. It was awesome to see what a bunch of pizza-powered, 
+                  caffeine-addicted geniuses could create. The ideas were endless, and the vibes were unbeatable! */}
+
+                  During my time at the university, I attended hackathons hosted by Temple. People from around Philly would come together and build incredible things in 12 
                   hours. It was awesome to see what a bunch of pizza-powered, 
                   caffeine-addicted geniuses could create. The ideas were endless, and the vibes were unbeatable!
                 </p>

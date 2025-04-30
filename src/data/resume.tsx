@@ -135,7 +135,7 @@ export const DATA = {
       dates: "Jan 2025 - April 28, 2025",
       active: true,
       description:
-        "A platform that transforms YouTube videos into interactive quizzes for kids. Using the Piggyback Learning system, these quizzes make learning engaging and effective, fostering critical thinking and knowledge retention. Above is a low-fidelity prototype.",
+        "A platform that transforms YouTube videos into interactive quizzes for kids. Using the Piggyback Learning system, these quizzes make learning engaging and effective, fostering critical thinking and knowledge retention.",
       technologies: [
         "Next.js",
         "Typescript",

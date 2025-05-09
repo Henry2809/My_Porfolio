@@ -13,7 +13,7 @@ export interface DockProps extends VariantProps<typeof dockVariants> {
 }
 
 const DEFAULT_MAGNIFICATION = 80;
-const DEFAULT_DISTANCE = 150;
+const DEFAULT_DISTANCE = 200;
 
 const dockVariants = cva(
   "mx-auto w-max h-full p-2 flex items-end rounded-full border"
@@ -90,13 +90,13 @@ const DockIcon = ({
   let widthSync = useTransform(
     distanceCalc,
     [-distance, 0, distance],
-    [40, magnification, 40]
+    [45, magnification, 45]
   );
 
   let width = useSpring(widthSync, {
     mass: 0.1,
     stiffness: 150,
-    damping: 12,
+    damping: 15,
   });
 
   return (

@@ -11,9 +11,9 @@ export const DATA = {
   description:
     "Aspiring Software Developer who loves designing and calls LinkedIn home.",
   summary:
-    "I am currently a senior at Temple University, graduating in May 2025 with a major in Computer Science. My long-term career goal is to combine my technical background with a passion for human-centered design, specializing in UX design to create intuitive and impactful digital experiences. My foundation in Computer Science gives me a unique perspective on how systems function, allowing me to bridge the gap between technical feasibility and user needs.",
+    "Graduating with a degree in Computer Science from Temple University, I’ve gained a solid technical foundation and a growing interest in the human aspects of design. My passion is in learning how to bridge this gap by applying user-centered design principles, with a particular focus on UX design, to create intuitive and meaningful digital experiences.",
   summary2:
-    "My focus is on designing technology that meets real needs, not just showcasing technical capabilities. Great UX happens when solutions blend naturally into daily life, making technology feel like an invisible helper rather than a barrier.",
+    "Technology should seamlessly solve problems without distractions. For me, great UX is about crafting experiences that feel natural, allowing users to focus on what matters most without being overwhelmed by complexity. I aim to design products that not only meet technical requirements but also enhance the user’s journey, creating seamless interactions that make a real difference in their daily lives.",
   avatarUrl: "/me.jpeg",
   skills: [
     "C", "Java", "Python", "Git", "Figma", "Canva", "HTML", "TypeScript", "JavaScript", "React", "CSS", "Bootstrap",
@@ -22,7 +22,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    // { href: "/personal", icon: User, label: "personal" },
+    // { href: "/personal", icon: User, label: "More about me" },
   ],
   contact: {
     email: "hautrng003@gmail.com",

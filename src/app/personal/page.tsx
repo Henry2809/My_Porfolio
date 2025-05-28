@@ -11,6 +11,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Icons } from "@/components/icons";
 
 const travelDestinations = [
   {
@@ -68,8 +69,8 @@ export default function PersonalPage() {
         id="hero"
         className="min-h-screen flex items-center justify-center"
       >
-        <div className="mx-auto w-full max-w-2xl items-center justify-center">
-          <div className="flex flex-col justify-center items-center space-y-8 -mt-56">
+        <div className="mx-auto w-full max-w-2xl">
+          <div className="flex flex-col justify-center items-center space-y-8 text-center -mt-20">
             <TypingAnimation className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
               More about me!
             </TypingAnimation>
@@ -90,25 +91,67 @@ export default function PersonalPage() {
         </div>
       </section>
 
-      {/* <section id="books&inspiration" className="flex flex-col items-center justify-center space-y-4 md:space-y-8">
-        <TextReveal>
-          <div className="flex flex-col items-center">
-            <p className="text-lg sm:text-xl italic text-center">
-              Let's start with the books I read. I am a big fan of reading and I try to read at least one book a month. Here are some of my favorites:
-            </p>
+      <section id="books">
+        <TextReveal
+          className="
+                relative
+                w-screen
+                left-1/2           
+                -translate-x-1/2   
+                max-w-none         
+              "
+        >
+          <div className="flex flex-col items-center justify-center mx-auto text-center mb-20">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  The <span className="text-[#0ac900] font-fontdiner">Answers</span> to my <span className="text-[#fa3434] font-fontdiner">Problems</span>
+                </h2>
+                <p className="text-base font-normal text-muted-foreground md:text-sm/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  No, not ChatGPT but <b><u>books</u></b>. Reading helps with abstract concepts. I speak Vietnamese 🇻🇳 & French 🇫🇷 and it also help me with new vocabs in English and how to articulate myself better.
+                  Here are some of my favorite books:
+                </p>
+              </div>
+            </div>
+            {/* <div className="flex flex-col items-center justify-center mx-auto">
+              <div className="relative w-full max-w-lg m-5">
+                <Carousel className="w-full">
+                  <CarouselContent>
+                    {travelDestinations.map((destination) => (
+                      <CarouselItem key={destination.id}>
+                        <Card>
+                          <CardContent className="flex flex-col aspect-square items-center justify-center">
+                            <img
+                              src={destination.image}
+                              alt={destination.name}
+                              className="w-full h-full object-cover rounded-lg"
+                            />
+                          </CardContent>
+                        </Card>
+                      </CarouselItem>
+                    ))}
+                  </CarouselContent>
 
-            <img
-              src="temple.png"
-              alt="Temple"
-              className="w-64 h-auto rounded-lg shadow-lg transform transition-all duration-500 hover:scale-105"
-              />
+                  {/* --- MOBILE CONTROLS (up to sm) --- */}
+                  {/* <div className="absolute -bottom-9 left-1/2 transform -translate-x-1/2 flex sm:hidden">
+                    <CarouselPrevious />
+                    <CarouselNext />
+                  </div>
 
+                  {/* --- DESKTOP CONTROLS (sm and above) --- */}
+                  {/* <div className="hidden sm:flex sm:justify-between sm:mt-4">
+                    <CarouselPrevious />
+                    <CarouselNext />
+                  </div>
+                </Carousel> */} 
+              {/* </div> */}
+            {/* </div> */} 
           </div>
-        </TextReveal>
-      </section> */}
+          </TextReveal>
+      </section>
 
       <section id="piano">
-        <div className="space-y-12 w-full py-14">
+        <div className="space-y-12 w-full">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-10">
               <div className="space-y-2">
@@ -138,64 +181,70 @@ export default function PersonalPage() {
               </div>
             </BlurFade>
           </BlurFade>
+          
         </div>
       </section>
 
+
+
+
       <section id="bikes">
-        <TextReveal
-          className="
-                relative
-                w-screen
-                left-1/2           
-                -translate-x-1/2   
-                max-w-none         
-              "
-        >
-          <div className="flex flex-col items-center justify-center mx-auto">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  2 Wheels & Me
-                </h2>
-                <p className="text-sm font-normal text-muted-foreground sm:text-base md:text-sm/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I love going to places on my bike - café, bookstore, museums, beaches. To escape the noise of the world & reality.
-                </p>
+        {/* <BlurFade delay={BLUR_FADE_DELAY * 11}> */}
+          <TextReveal
+            className="
+                  relative
+                  w-screen
+                  left-1/2           
+                  -translate-x-1/2   
+                  max-w-none         
+                "
+          >
+            <div className="flex flex-col items-center justify-center mx-auto">
+              <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                <div className="space-y-2">
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                    2 Wheels & Me
+                  </h2>
+                  <p className="text-base font-normal text-muted-foreground md:text-sm/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                    I love going to new places on my bike - café, bookstores, <mark>museums</mark> <b>(more on this later)</b>, beaches. To escape reality & the noise of the world.
+                  </p>
+                </div>
+              </div>
+
+              <div className="relative w-full max-w-lg m-5">
+                <Carousel className="w-full">
+                  <CarouselContent>
+                    {travelDestinations.map((destination) => (
+                      <CarouselItem key={destination.id}>
+                        <Card>
+                          <CardContent className="flex flex-col aspect-square items-center justify-center">
+                            <img
+                              src={destination.image}
+                              alt={destination.name}
+                              className="w-full h-full object-cover rounded-lg"
+                            />
+                          </CardContent>
+                        </Card>
+                      </CarouselItem>
+                    ))}
+                  </CarouselContent>
+
+                  {/* --- MOBILE CONTROLS (up to sm) --- */}
+                  <div className="absolute -bottom-9 left-1/2 transform -translate-x-1/2 flex sm:hidden">
+                    <CarouselPrevious />
+                    <CarouselNext />
+                  </div>
+
+                  {/* --- DESKTOP CONTROLS (sm and above) --- */}
+                  <div className="hidden sm:flex sm:justify-between sm:mt-4">
+                    <CarouselPrevious />
+                    <CarouselNext />
+                  </div>
+                </Carousel>
               </div>
             </div>
-
-            <div className="relative w-full max-w-lg m-10">
-              <Carousel className="w-full">
-                <CarouselContent>
-                  {travelDestinations.map((destination) => (
-                    <CarouselItem key={destination.id}>
-                      <Card>
-                        <CardContent className="flex flex-col aspect-square items-center justify-center">
-                          <img
-                            src={destination.image}
-                            alt={destination.name}
-                            className="w-full h-full object-cover rounded-lg"
-                          />
-                        </CardContent>
-                      </Card>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
-
-                {/* --- MOBILE CONTROLS (up to sm) --- */}
-                <div className="absolute -bottom-9 left-1/2 transform -translate-x-1/2 flex sm:hidden">
-                  <CarouselPrevious />
-                  <CarouselNext />
-                </div>
-
-                {/* --- DESKTOP CONTROLS (sm and above) --- */}
-                <div className="hidden sm:flex sm:justify-between sm:mt-4">
-                  <CarouselPrevious />
-                  <CarouselNext />
-                </div>
-              </Carousel>
-            </div>
-          </div>
-        </TextReveal>
+          </TextReveal>
+        {/* </BlurFade> */}
       </section>
     </main>
   );

@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
-        <div className="mx-auto w-full max-w-2xl space-y-8">
+        <div className="mx-auto w-full max-w-5xl space-y-8">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
               <BlurFadeText
@@ -32,7 +32,7 @@ export default function Page() {
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-36 border object-contain">
+              <Avatar className="w-40 h-40  border object-contain">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
@@ -40,7 +40,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      
+
       {/* About Section */}
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
@@ -56,7 +56,6 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
-
 
       {/* Work Experience Sectino*/}
       <section id="work">
@@ -110,6 +109,7 @@ export default function Page() {
         </div>
       </section>
 
+
       {/* Skills Section */}
       {/* <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
@@ -128,17 +128,17 @@ export default function Page() {
 
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
-            <BlurFade delay={BLUR_FADE_DELAY * 10}>
-              <h2 className="text-xl font-bold">Skills</h2>
-            </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 11}>
+            <h2 className="text-xl font-bold">Skills</h2>
+          </BlurFade>
           <div className="flex flex-wrap items-center justify-center">
-            <BlurFade delay={BLUR_FADE_DELAY * 10}>
+            <BlurFade delay={BLUR_FADE_DELAY * 11}>
               <IconCloudDemo />
             </BlurFade>
           </div>
         </div>
       </section>
-      
+
       {/* Projects Sections */}
       <section id="projects">
         <div className="space-y-12 w-full py-14">
@@ -152,8 +152,10 @@ export default function Page() {
                   Check out my work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on diverse projects, from sleek designs and in-depth research studies to complex web applications.
-                  Here are a few highlights of my work, showcasing my versatility and creativity.
+                  I&apos;ve worked on diverse projects, from sleek designs and
+                  in-depth research studies to complex web applications. Here
+                  are a few highlights of my work, showcasing my versatility and
+                  creativity.
                 </p>
               </div>
             </div>
@@ -236,10 +238,12 @@ export default function Page() {
                   {DATA.hackathons.length} hackathons hosted by Temple. People from around Philly would come together and build incredible things in 12 
                   hours. It was awesome to see what a bunch of pizza-powered, 
                   caffeine-addicted geniuses could create. The ideas were endless, and the vibes were unbeatable! */}
-
-                  During my time at the university, I attended hackathons hosted by Temple. People from around Philly would come together and build incredible things in 12 
-                  hours. It was awesome to see what a bunch of pizza-powered, 
-                  caffeine-addicted geniuses could create. The ideas were endless, and the vibes were unbeatable!
+                  During my time at the university, I attended hackathons hosted
+                  by Temple. People from around Philly would come together and
+                  build incredible things in 12 hours. It was awesome to see
+                  what a bunch of pizza-powered, caffeine-addicted geniuses
+                  could create. The ideas were endless, and the vibes were
+                  unbeatable!
                 </p>
               </div>
             </div>
@@ -266,7 +270,7 @@ export default function Page() {
         </div>
       </section>
 
-       {/* Contact Section */}
+      {/* Contact Section */}
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-20">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>

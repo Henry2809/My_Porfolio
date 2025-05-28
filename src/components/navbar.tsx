@@ -24,7 +24,7 @@ export default function Navbar() {
                   href={item.href}
                   className={cn(
                     buttonVariants({ variant: "ghost", size: "icon" }),
-                    "size-12"
+                    "size-11"
                   )}
                 >
                   <item.icon className="size-5" />
@@ -47,7 +47,7 @@ export default function Navbar() {
                     href={social.url}
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),
-                      "size-12"
+                      "size-11"
                     )}
                   >
                     <social.icon className="size-5" />

@@ -1,3 +1,4 @@
+import { Fontdiner_Swanky } from "next/font/google";
 import type { Config } from "tailwindcss";
 import { fontFamily } from "tailwindcss/defaultTheme";
 
@@ -21,6 +22,10 @@ const config = {
     extend: {
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
+        inter: ['var(--font-inter)'],
+        mono: ['var(--font-roboto-mono)'],
+        playfair: ['var(--font-playfair)'],
+        fontdiner: ['var(--font-fontdiner)'],
       },
       colors: {
 

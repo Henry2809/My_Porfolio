@@ -1,5 +1,6 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, Italic, NotebookIcon, User } from "lucide-react";
+import { language } from "gray-matter";
+import { HomeIcon, User, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Henry Nguyen",
@@ -93,6 +94,19 @@ export const DATA = {
       logoUrl: "/temple.png",
       start: "Aug 2021",
       end: "May 2025",
+    },
+  ],
+
+  language: [
+    {
+      name:"Vietnamese",
+      hi:"Xin chào, bạn khỏe không?",
+      flagUrl:"/flag/vietnam.jpeg",
+    },
+    {
+      name:"French",
+      hi:"Bonjour, Comment allez-vous?",
+      flagUrl:"/flag/france.jpeg",
     },
   ],
   
